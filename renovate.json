@@ -7,7 +7,7 @@
   "schedule": ["before 10am on wednesday"],
   "packageRules": [
     {
-      "matchPackageNames": ["node"],
+      "matchPackagePatterns": ["node"],
       "matchManagers": ["dockerfile", "circleci"],
       "groupName": "node"
     }
