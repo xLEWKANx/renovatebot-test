@@ -8,7 +8,7 @@
   "packageRules": [
     {
       "matchPackageNames": ["node"],
-      "matchManagers": ["dockerfile"],
+      "matchManagers": ["dockerfile", "circleci"],
       "groupName": "node"
     }
   ]
