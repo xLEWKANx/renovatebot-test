@@ -4,5 +4,12 @@
   ],
   "enabledManagers": ["circleci", "dockerfile"],
   "timezone": "America/New_York",
-  "schedule": ["before 10am on wednesday"]
+  "schedule": ["before 10am on wednesday"],
+  "packageRules": [
+    {
+      "matchPackageNames": ["node"],
+      "matchManagers": ["dockerfile"],
+      "groupName": "node"
+    }
+  ]
 }
