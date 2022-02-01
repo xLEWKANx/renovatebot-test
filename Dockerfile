@@ -1,4 +1,4 @@
-FROM node:15.1
+FROM node:17.4
 
 COPY package*.json yarn.lock ./
 
