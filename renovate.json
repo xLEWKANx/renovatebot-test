@@ -2,7 +2,7 @@
   "extends": [
     "config:base"
   ],
-  "enabledManagers": ["circleci"],
+  "enabledManagers": ["circleci", "docker"],
   "timezone": "America/New_York",
   "schedule": ["before 10am on wednesday"]
 }
