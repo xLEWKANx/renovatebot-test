@@ -2325,9 +2325,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/dom@npm:8.11.2":
-  version: 8.11.2
-  resolution: "@testing-library/dom@npm:8.11.2"
+"@testing-library/dom@npm:8.16.0":
+  version: 8.16.0
+  resolution: "@testing-library/dom@npm:8.16.0"
   dependencies:
     "@babel/code-frame": ^7.10.4
     "@babel/runtime": ^7.12.5
@@ -2337,7 +2337,7 @@ __metadata:
     dom-accessibility-api: ^0.5.9
     lz-string: ^1.4.4
     pretty-format: ^27.0.2
-  checksum: 163e6572a3caa9fab4cb48e03fa2bf2cf702a72ba55b13c8ad7ad1f807762fd480e28f54c36ff5df8ce14a97adda275b4b3bf3c81439c6509ec219c198dc4f9b
+  checksum: 37aabbec872522bcb51106ecb700d9be601293e75445084b6cc195921db4b2d06d6bd4c67ad834174c129f2199c39aa540b6d17c296fcbd701dc99fd800afe36
   languageName: node
   linkType: hard
 
@@ -12725,7 +12725,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "renovabot-test@workspace:."
   dependencies:
-    "@testing-library/dom": 8.11.2
+    "@testing-library/dom": 8.16.0
     "@testing-library/jest-dom": 5.15.0
     "@testing-library/react": 11.2.7
     "@testing-library/user-event": 12.8.3
