@@ -2,9 +2,8 @@
   "extends": [
     "config:base"
   ],
-  "enabledManagers": ["circleci", "dockerfile"],
+  "enabledManagers": ["circleci", "dockerfile", "npm"],
   "timezone": "America/New_York",
-  "schedule": ["before 10am on wednesday"],
   "packageRules": [
     {
       "matchPackagePatterns": ["node"],
